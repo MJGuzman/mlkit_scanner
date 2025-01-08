@@ -16,6 +16,7 @@ A Flutter plugin to detect barcodes, text, faces, and objects using Google MLKit
   s.source_files = 'Classes/**/*'
   s.static_framework = true
   s.dependency 'Flutter'
+  s.dependency 'GoogleDataTransport', '~> 9.3'
   s.dependency 'GoogleMLKit/BarcodeScanning', '~> 7.0.0'
   s.platform = :ios, '15.5.0'
   s.resource_bundles = { 'Assets' => ['Assets/*.xcassets'] }
